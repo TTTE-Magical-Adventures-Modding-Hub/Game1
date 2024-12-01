@@ -1,0 +1,1 @@
+on beginSprite me  global gdelta, startcstnum  set startcstnum to the memberNum of member "зр"  set gdelta to 0endon exitFrame me  global gdelta, startcstnum  set the memberNum of sprite 2 to startcstnum + gdelta  updateStage()  set gdelta to gdelta + 1  if gdelta > 7 then    set gdelta to 0  end ifend
