@@ -1,0 +1,1 @@
+on beginSprite me  global stage  set sndno to random(3) + 1  puppetSound(1, sndno)end

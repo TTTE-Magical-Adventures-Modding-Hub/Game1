@@ -1,0 +1,1 @@
+on exitFrame me  set qcount to IsPastCuePoint(sound(1), "Q")end

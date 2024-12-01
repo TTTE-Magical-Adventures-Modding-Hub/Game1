@@ -1,0 +1,1 @@
+on exitFrame  if soundBusy(1) = 0 then    go("…X…e≈[…W…i…Ï…o≈[")  end if  go(the frame)end

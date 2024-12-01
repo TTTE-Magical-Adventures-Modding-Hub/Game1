@@ -1,0 +1,1 @@
+on exitFrame  global mdownspnum, yubi1n, yubi1mn, defn, defmn  if mdownspnum <> 0 then    if soundBusy(1) = 0 then      sendAllSprites(#lightoff)      if rollOver(mdownspnum) then        cursor([yubi1n, yubi1mn])      else        nothing()      end if      updateStage()      set mdownspnum to 0    end if  end if  go(the frame)end

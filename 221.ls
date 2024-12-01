@@ -1,0 +1,1 @@
+on exitFrame  global loop, answerloop, qnumlist, clickslist, soundnumber, maxclicknum, qnum  set maxclicknum to getAt(clickslist, soundnumber)  set loop to 1  set answerloop to 1  set qnum to getAt(qnumlist, soundnumber)end

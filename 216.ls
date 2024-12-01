@@ -1,0 +1,1 @@
+global room_flgon exitFrame  cursor(200)  movie_end_job()  if room_flg = 0 then    go("start" & string(random(2)), the moviePath & "room")  else    go("gamereturn", the moviePath & "story" & room_flg & "_2")    set room_flg to 0  end ifend

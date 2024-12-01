@@ -1,0 +1,1 @@
+on exitFrame  global wheretogo  if soundBusy(1) = 0 then    sendAllSprites(#lightoff)    go(wheretogo)  end if  go(the frame)end

@@ -1,0 +1,1 @@
+property sprnumon beginSprite me  set sprnum to the currentSpriteNumendon exitFrame me  go(the frame)endon next me  go(the frame + 1)end

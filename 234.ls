@@ -1,0 +1,1 @@
+on exitFrame me  cursor(200)end

@@ -1,0 +1,1 @@
+on exitFrame  global soundnumber, stage, buttonlist, answer  initmusiclist()  initbuttonlist()  initscalelist()  set soundnumber to 1  set stage to 1  set answer to 0  set defn to the number of member "def"  set defmn to the number of member "def_mask"  cursor([defn, defmn])end

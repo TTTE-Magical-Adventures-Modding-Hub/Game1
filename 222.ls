@@ -1,0 +1,1 @@
+on exitFrame  if soundBusy(1) = 0 then    sendAllSprites(#lightoff)    go("твьі2")  else    go(the frame)  end ifend

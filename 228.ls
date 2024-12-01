@@ -1,0 +1,1 @@
+on exitFrame me  if soundBusy(1) = 0 then    sendAllSprites(#lightoff)  end ifend

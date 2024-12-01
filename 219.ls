@@ -1,0 +1,1 @@
+on exitFrame  if soundBusy(1) = 0 then    go(the frame)  else    sendSprite(33, #playanime, 2)    go(the frame + 1)    exit  end ifend

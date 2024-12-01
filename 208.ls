@@ -1,0 +1,1 @@
+on exitFrame  sendSprite(33, #question)end

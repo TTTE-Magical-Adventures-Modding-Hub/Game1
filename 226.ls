@@ -1,0 +1,1 @@
+on exitFrame me  global stage  puppetSound(1, "Bad_Ending1")end
