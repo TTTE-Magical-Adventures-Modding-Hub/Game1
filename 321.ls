@@ -1,0 +1,1 @@
+on startMovie  global debugmode  if the shiftDown = 1 then    set debugmode to "ON"    set the visible of sprite 41 to 1  else    set debugmode to "off"    set the visible of sprite 41 to 0  end ifend
