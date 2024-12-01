@@ -1,0 +1,1 @@
+on beginSprite me  set the volume of sound 2 to 180  puppetSound(2, "BACK")endon endSprite me  set the volume of sound 2 to 255  puppetSound(2, 0)end
